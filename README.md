@@ -20,3 +20,6 @@ Este es un proyecto de Single Page Application (SPA) de e-commerce desarrollado 
 
 * Cintia Farina
 * https://github.com/CinFarina
+
+## 👨‍💻 Dominio:
+*https://libreriascorpio.netlify.app/
