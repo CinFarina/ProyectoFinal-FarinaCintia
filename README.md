@@ -1,12 +1,22 @@
-# React + Vite
+# 📚 Librería Scorpio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de Single Page Application (SPA) de e-commerce desarrollado con **React** para el curso de React. Permite a los usuarios explorar un catálogo de productos, gestionar un carrito de compras y finalizar pedidos. Los productos y las órdenes se almacenan y gestionan en **Firebase Firestore**.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades Destacadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Catálogo y Detalle de Productos:** Visualización dinámica de productos con vistas detalladas y selector de cantidad (`ItemCount`) con validación de stock.
+* **Carrito de Compras:** Gestión completa del carrito (agregar, quitar, vaciar) usando React Context, con resumen de ítems y total.
+* **Checkout y Órdenes:** Proceso de finalización de compra con formulario de datos de usuario. Al confirmar, se genera una orden en Firestore y **se actualiza el stock de los productos de forma atómica**.
+* **Notificaciones:** Uso de "Toast messages" para feedback de usuario (ej. "Producto agregado", errores de stock).
+* **Navegación:** SPA con `React Router DOM` para transiciones fluidas entre secciones (catálogo, categorías, detalle, carrito, checkout).
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React, React Router DOM, Vite, HTML/CSS.
+* **Backend/DB:** Firebase Firestore.
+
+
+## 👨‍💻 Autor
+
+* Cintia Farina
+* https://github.com/CinFarina
