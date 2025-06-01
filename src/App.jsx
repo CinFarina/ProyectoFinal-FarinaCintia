@@ -8,12 +8,12 @@ import Cart from './assets/components/Cart';
 import Checkout from './assets/components/Checkout';
 import NotFound from './assets/components/NotFound';
 import { CartProvider } from './assets/context/Carrito';
-import { ToastProvider } from './assets/context/ToastContext'; // Correcto
+import { ToastProvider } from './assets/context/ToastContext'; 
 
 function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      {/* ¡AQUÍ ES DONDE DEBE ESTAR TOASTPROVIDER ENVOLVIENDO TODO! */}
+      {}
       <ToastProvider> 
         <CartProvider> 
           <NavBar />
@@ -28,7 +28,7 @@ function App() {
             </Routes>
           </main>
         </CartProvider>
-      </ToastProvider> {/* ¡Y AQUÍ SE CIERRA! */}
+      </ToastProvider> {}
     </div>
   );
 }
